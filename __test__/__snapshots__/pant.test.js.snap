@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pant changes the class when hovered 1`] = `
+<div>
+  <h2 />
+  <small>
+    By 
+    Unknown author
+  </small>
+  <h4>
+    Waist circumference is
+    Supply waist circumference, please
+    "
+  </h4>
+  <h4>
+    Hips circumference is
+    Supply hips circumference, please
+    "
+  </h4>
+  <style
+    jsx={true}
+  >
+    
+        div {
+          color: inherit;
+          padding: 2rem;
+        }
+      
+  </style>
+</div>
+`;

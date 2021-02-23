@@ -1,30 +1,39 @@
 {
-  "name": "hello-next",
+  "name": "kroyka",
   "version": "0.0.8",
   "description": "",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest --verbose ./__test__"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gabdulgazim",
   "license": "MIT",
   "dependencies": {
     "@prisma/cli": "^2.16.1",
-    "@prisma/client": "^2.16.1",
+    "@prisma/client": "^2.17.0",
     "next": "9.5.5",
-    "next-auth": "^3.3.0",
+    "next-auth": "^3.5.0",
     "react": "16.14.0",
     "react-dom": "16.14.0",
     "react-markdown": "5.0.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "@babel/preset-flow": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
     "@types/next-auth": "3.1.14",
     "@types/node": "14.14.6",
     "@types/react": "16.9.56",
+    "babel-jest": "^26.6.3",
     "cypress": "^6.4.0",
-    "prisma": "2.16.1",
+    "jest": "^26.6.3",
+    "mathjs": "^9.2.0",
+    "prisma": "^2.17.0",
+    "react-test-renderer": "^17.0.1",
     "typescript": "4.0.5"
   }
 }

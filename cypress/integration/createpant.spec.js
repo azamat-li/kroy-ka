@@ -2,14 +2,16 @@
 
 context('Index', () => {
   beforeEach(() => {
+		cy.visit('/')
     cy.visit('/p/1')
   })
 
   it('has some meaningful text', () => {
-
 		cy.contains('Feed')
-
+		cy.contains('Brand new sewing model')
   })
+
+			
 
   it('.as() - alias a route for later use', () => {
     // Alias the route to wait for its response
